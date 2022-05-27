@@ -1,0 +1,61 @@
+body{ /* how do i make it so the whole website is this font? html? body? */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New" !important;
+
+}
+
+.navlist{
+    width: 100%;
+    background: #07b7a7;
+
+
+}
+
+.navlist ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.navlist ul li:first-child{
+    flex: 1;
+}
+
+.navlist ul h4{
+    font-family: "Courier New";
+}
+
+.navlist ul a{
+    margin-left: 20px;
+}
+
+.clubFinder {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+.navlist img{
+    height:20px;
+}
+
+.Mcontainer {
+    font-family: "Courier New";
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.Acontainer {
+    font-family: "Courier New";
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.preview{
+    width:100px;
+    height:100px;
+    object-fit: contain;
+}
+
